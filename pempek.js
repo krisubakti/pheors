@@ -68,9 +68,8 @@ const waitForReceipt = async (tx, provider, maxAttempts = 6) => {
 const networkConfig = {
   name: 'Pharos Testnet',
   chainId: 688688,
-  // Use the new RPC as primary
-  primaryRpc: 'https://api.zan.top/node/v1/pharos/testnet/1761472bf26745488907477d23719fb5',
-  fallbackRpc: 'https://testnet.dplabs-internal.com',
+  primaryRpc: 'https://testnet.dplabs-internal.com',  // ← Update ini
+  fallbackRpc: 'https://testnet.dplabs-internal.com', // ← Dan ini
   currencySymbol: 'PHRS',
 };
 
