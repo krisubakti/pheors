@@ -1,0 +1,17 @@
+{
+  "rpcUrl": "https://testnet.dplabs-internal.com",
+  "chainId": 688688,
+  "tokens": {
+    "USDC": "0xad902cf99c2de2f1ba5ec4d642fd7e49cae9ee37",
+    "WPHRS": "0x76aaada469d23216be5f7c596fa25f282ff9b364"
+  },
+  "contractAddress": "0x1a4de519154ae51200b0ad7c90f7fac75547888a",
+  "numSwapsPerWallet": 10,
+  "numTransfersPerWallet": 10,
+  "delayBetweenActionsSec": 5,
+  "delayBetweenWalletsSec": 10,
+  "mainLoopDelayMin": 30,
+  "useProxies": true,
+  "inviteCode": "KOXS9C4vMc8fUQHU",
+  "debugFullError": false
+}
